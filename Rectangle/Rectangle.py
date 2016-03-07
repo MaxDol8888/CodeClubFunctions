@@ -11,5 +11,8 @@ class Rectangle(object):
     def get_perimeter(self):
         return 2 * (self.width + self.length)
 
+    def is_square(self):
+        return self.width == self.length
+
     def equal_to(self, rectangle_other):
         return self.get_area() == rectangle_other.get_area()
