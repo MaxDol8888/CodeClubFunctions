@@ -10,11 +10,12 @@ def celsius_to_fahrenheit(celsius):
     return answer
 
 
-def are_you_an_adult(nr):
-    return nr >= 18
+def are_you_an_adult():
+    age = input('What is your age: ')
+    return int(age) >= 18
 
 
 if __name__ == "__main__":
     print(fahrenheit_to_kelvin(0), 'K' )
     print(celsius_to_fahrenheit(10), 'F')
-    print(are_you_an_adult(18))
+    print(are_you_an_adult())
