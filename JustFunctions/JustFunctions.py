@@ -15,6 +15,7 @@ def are_you_an_adult(nr):
 
 
 if __name__ == "__main__":
+    # Testing
     print(fahrenheit_to_kelvin(0), 'K' )
     print(celsius_to_fahrenheit(10), 'F')
     print(are_you_an_adult(18))
